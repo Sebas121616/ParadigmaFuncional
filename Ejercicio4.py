@@ -1,7 +1,7 @@
 #Iniciamos la función con la que verificamos que la secuencia sea valida, ademas de inicar el generador
 
 def pares (n,m):
-    if n < 0 or m < 0 or n > m:
+    if n <= 0 or m <= 0 or n > m:
         #Imprime un error en caso de que se cumpla alguna de las condiciones
         raise Exception("No es posible continuar con la operación")
         #Se escribe RAISE EXCEPTION para que devuelva un mensaje de error y acabe el programa
@@ -39,3 +39,4 @@ try:
 except Exception as error:
 
     print(error)
+
