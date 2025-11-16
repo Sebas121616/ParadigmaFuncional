@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # DATOS A USAR
 lista1 = [1, 2, 3]
 lista2 = [4, 5, 6]
@@ -24,7 +24,6 @@ print(list(resultado))
 #  y guardar el resultado en una nueva lista, en este caso [12]
 
 #  Hace lo mismo con la segunda posicion 2,5,8, [12,15] y tercera posicion 3,6,9, [12,15,18]
-=======
 # DATOS A USAR
 lista1 = [1, 2, 3]
 lista2 = [4, 5, 6]
@@ -50,5 +49,4 @@ print(list(resultado))
 #  y guardar el resultado en una nueva lista, en este caso [12]
 
 #  Hace lo mismo con la segunda posicion 2,5,8, [12,15] y tercera posicion 3,6,9, [12,15,18]
->>>>>>> 610958ab21db3d71320dedfea10cb085f4a7b536
 #  Por eso el resultado final es [12,15,18]

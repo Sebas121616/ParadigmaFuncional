@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Se inicia la funcion con 2 parametros, la base y la altura, necesarios para hallar el area de un rectangulo
 
 def calcularArea (base, altura):
@@ -20,13 +19,13 @@ resultado = calcularArea (base,altura)
 if resultado is None:
     print("Recuerde escribir valores positivos")
 else:
-=======
+
 #Se inicia la funcion con 2 parametros, la base y la altura, necesarios para hallar el area de un rectangulo
 
-def calcularArea (base, altura):
-    if base <= 0 or altura <= 0:       
-        return None #Si algun termino es 0 o negativo la funcion no devuelve nada
-    return (base * altura)
+    def calcularArea (base, altura):
+        if base <= 0 or altura <= 0:       
+            return None #Si algun termino es 0 o negativo la funcion no devuelve nada
+        return (base * altura)
 
 #Pedimos los parametros al usuario, se usa FLOAT antes de INPUT porque solo necesitamos numeros, ya sean enteros o decimales
 
@@ -42,5 +41,4 @@ resultado = calcularArea (base,altura)
 if resultado is None:
     print("Recuerde escribir valores positivos")
 else:
->>>>>>> 610958ab21db3d71320dedfea10cb085f4a7b536
     print (f"El area del rectangulo con altura {altura} y base {base} es de: {resultado}")
